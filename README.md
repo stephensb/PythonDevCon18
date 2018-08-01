@@ -1,4 +1,4 @@
-"# PythonDevCon18"
+# PythonDevCon18
 
 # Requirements
 1. python 3.x
