@@ -23,15 +23,12 @@ import requests
 import json
 from docopt import docopt
 
-
-
 key = 'your_key_from_devloper.blackboard.com_registration'
 secret = 'secretfrom_devloper.blackboard.com_registration'
 target_domain = 'yourbbinstance.domain.edu'
 set_token_path = '/learn/api/public/v1/oauth2/token'
 user_path = '/learn/api/public/v1/users'
 payload =  { "grant_type": "client_credentials","token": None}
-
 
 def set_token():
     oauth_url = 'https://' + target_domain + set_token_path
@@ -112,7 +109,7 @@ def main():
     deleted_user = delete_user('userName:python_demo')
     
     if debug:
-      print(delete_user)
+      print(deleted_user)
 
   else:
     user = get_user(args['USER_ID'])
