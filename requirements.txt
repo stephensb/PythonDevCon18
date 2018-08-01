@@ -1,0 +1,8 @@
+sqlalchemy
+cx_Oracle
+psycopg2
+pypyodbc
+pyodbc
+pymysql
+docopt
+schema
