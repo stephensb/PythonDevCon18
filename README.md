@@ -6,3 +6,8 @@
 ```
 pip install --user -r requirements.txt
 ```
+
+####Resource Links
+[http://py4e.com](Python 4 Everyone course)
+[https://developers.google.com/sheets/api/quickstart/python](Google Sheets API with Python)
+
