@@ -1,6 +1,6 @@
 # PythonDevCon18
 
-# Requirements
+## Requirements
 1. python 3.x
 2. After cloning this repo run
 ```
